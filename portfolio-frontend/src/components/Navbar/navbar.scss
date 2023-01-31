@@ -19,13 +19,20 @@
   justify-content: flex-start;
   align-items: center;
 
-  img {
-    width: 90px;
-    height: 20px;
+  p {
+    font-size: 50px;
+    font-weight: 1000;
+    color: var(--gray-color);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
+    &:hover{
+        color: var(--secondary-color);
+    }
+
+    @media screen and (max-width: 400px) {
+     font-size: 30px;
+     font-weight: 700;
     }
   }
 }
