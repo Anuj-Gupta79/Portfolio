@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { images } from '../../constants'
 
+import { AppWrap } from '../../Wrapper';
+
 
 import './about.scss';
 
@@ -36,4 +38,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, 'about');
