@@ -1,0 +1,23 @@
+/* <<<<===================================:: NAVBAR ::================================>>>> */
+
+
+
+
+/* <<<=========================== ::::::::: INTROCOMPONENT :::::::==============================> */
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.left-content{
+    flex:1;
+    padding-right: 20px;
+    border: 2px solid red;
+    height: 80vh;
+}
+.right-content{
+    flex:1;
+    border: 2px solid yellow;
+    height: 80vh;
+}

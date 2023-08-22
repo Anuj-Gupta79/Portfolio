@@ -1,10 +1,13 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./Component/Navbar";
+// import IntroComponent from "./Component/IntroComponent";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Portfolio project</h1>
-    </div>
+    <>
+      <Navbar />
+      {/* <IntroComponent/> */}
+    </>
   );
 }
 
