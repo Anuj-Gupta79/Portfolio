@@ -2,7 +2,7 @@ import React from 'react'
 
 const Achievements = () => {
   return (
-    <div>Achievements</div>
+    <div id='achievements' className='achievements-section'>Achievements</div>
   )
 }
 

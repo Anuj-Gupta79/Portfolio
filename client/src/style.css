@@ -1,23 +1,173 @@
+/* <<<===== IMPORTING FONT =======>>>  */
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
 /* <<<<===================================:: NAVBAR ::================================>>>> */
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #313f3f;
+  padding: 0.25rem 0;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
 
+.nav-center {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.nav-header h2 {
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
 
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 1.5rem;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-links a:hover {
+  color: #fca311;
+}
+
+@media (max-width: 768px) {
+  .nav-center {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #292c35;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    transform: translateY(-100%);
+  }
+
+  .show-nav {
+    transform: translateY(0);
+  }
+
+  .nav-header h2 {
+    font-size: 1.2rem;
+  }
+
+  .nav-links li {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+}
 
 /* <<<=========================== ::::::::: INTROCOMPONENT :::::::==============================> */
-.intro{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
+.into-section {
+  background-color: #f5fff0;
+  margin-top: 3rem;
+  padding: 4rem;
 }
-.left-content{
-    flex:1;
-    padding-right: 20px;
-    border: 2px solid red;
-    height: 80vh;
+
+.intro {
+  width: 90%;
+  display: flex;
+  margin: auto 0;
+  justify-content: space-between;
+  align-items: center;
 }
-.right-content{
-    flex:1;
-    border: 2px solid yellow;
-    height: 80vh;
+
+.intro-content {
+  padding: 5rem;
+  width: 100%;
+  color: #313f3f;
+  font-size: 18px;
+}
+
+.intro-image img {
+  width: 140%;
+  margin-top: 15%;
+}
+
+/* <<<========================== About Component ========================>>>>>  */
+.about-section {
+  background-color: #f5fff0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-image img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.about-content {
+  padding: 5rem;
+  width: 100%;
+  color: #313f3f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* <<<================================== Skills Components ===========================>>>  */
+.skills-section {
+  background-color: #f5fff0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* <<<================================== Projects Components ===========================>>>  */
+.projects-section {
+  background-color: #f5fff0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* <<<================================== Achievements Components ===========================>>>  */
+.achievements-section {
+  background-color: #f5fff0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* <<<================================== Contact Components ===========================>>>  */
+.contact-section {
+  background-color: #f5fff0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
