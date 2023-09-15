@@ -13,11 +13,17 @@ function App() {
     <>
       <Navbar />
       <IntroComponent />
+      <hr/>
       <About />
+      <hr/>
       <Skills />
+      <hr/>
       <Projects />
+      <hr/>
       <Achievements />
+      <hr/>
       <Contact />
+      <hr/>
       <Footer />
     </>
   );

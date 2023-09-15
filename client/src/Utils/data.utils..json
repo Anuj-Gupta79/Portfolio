@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "img": "https://i.pinimg.com/736x/73/89/6d/73896d8084945450a48a6e9efe0cca54--app-ui-ui-ux.jpg",
+      "title": "Admin Dashboard",
+      "description": "This project contains a dashboard user interface (UI) built using ReactJS and Syncfusion components. The dashboard UI provides a comprehensive and visually appealing interface for users to interact with the underlying system",
+      "project": "https://shopphiedashboard.netlify.app/",
+      "github": "https://github.com/Anuj-Gupta79/DashBoard-UI"
+    },
+    {
+      "id": 2,
+      "img": "https://media.licdn.com/dms/image/C5612AQHvzL-_J1rRWg/article-cover_image-shrink_600_2000/0/1614895141102?e=2147483647&v=beta&t=61j64lYBEW2Lu2J0FC6oqxfHhlPcXdgRtB--3klMdqE",
+      "title": "LinkedIn Clone",
+      "description": "This project contains a dashboard user interface (UI) built using ReactJS and Syncfusion components. The dashboard UI provides a comprehensive and visually appealing interface for users to interact with the underlying system",
+      "project": "https://shopphiedashboard.netlify.app/",
+      "github": "https://github.com/Anuj-Gupta79/DashBoard-UI"
+    },
+    {
+      "id": 3,
+      "img": "https://static.toiimg.com/photo/msid-75897210/75897210.jpg",
+      "title": "Food Delivery App",
+      "description": "This project contains a dashboard user interface (UI) built using ReactJS and Syncfusion components. The dashboard UI provides a comprehensive and visually appealing interface for users to interact with the underlying system",
+      "project": "https://shopphiedashboard.netlify.app/",
+      "github": "https://github.com/Anuj-Gupta79/DashBoard-UI"
+    }
+  ],
+  "achievement": [
+    {
+      "id": 1,
+      "title": "Leetcode",
+      "description": "LeetCode is an online platform offering coding challenges and interview preparation resources for software engineers and developers",
+      "img": "https://cdn.cdo.mit.edu/wp-content/uploads/sites/67/2021/01/0_zuhXdNAIUoxEem4-.png",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "GFG(GeeksForGeeks)",
+      "description": "GeeksforGeeks, often abbreviated as GFG, is a widely recognized and highly regarded online platform and community for computer science and programming enthusiasts",
+      "img": "https://repository-images.githubusercontent.com/389729275/371ba38b-8a03-4bff-916c-c3fa5396ceda",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "CodeForces",
+      "description": "Codeforces is a website that hosts competitive programming contests. It is maintained by a group of competitive programmers from ITMO University led by Mikhail Mirzayanov.",
+      "img": "https://repository-images.githubusercontent.com/390296311/0f6c1240-462e-47ff-870d-e2d0ebb181f1",
+      "link": ""
+    }
+  ]
+}
